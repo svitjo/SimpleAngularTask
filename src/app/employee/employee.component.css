@@ -1,0 +1,17 @@
+table {
+    width: 50%;
+    text-align: center;
+}
+
+th,
+td {
+    border: 1px solid;
+}
+
+bla {
+    background-color: coral;
+}
+
+.red-row {
+    color: red;
+  }

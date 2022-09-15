@@ -1,0 +1,17 @@
+<div class="container">
+    <table class="table table-bordered table-striped">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Total time in month</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let employee of newEmployees">
+        <td><span>{{employee.EmployeeName}}</span></td>
+        <td><span>{{employee.Pom}} hrs</span></td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+
